@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form Assignment</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <P>Fill in your details</P>
+    <form action="Submit" method="GET">
+        <label for="firstname">First Name: <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required/></label>
+        <label for="lastname">Last Name: <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required/></label><br>
+        <label for="gender">Gender:</label><select name="gender" id="gender" required>
+            <option value="male">Male</option>
+         <option value="female">Female</option></select>
+         <label for="dob">Date of Birth: <input type="date" id="dob" name="dob" required/></label><br>
+         <label for="email">Email address: <input type="email" id="email" name="email" placeholder="Enter email address" required/></label>
+         <label for="education">Education Level:</label><select name="education" id="education" required>
+            <option value="bsc">Bsc</option>
+         <option value="msc">Msc</option>
+         <option value="diploma">Diploma</option>
+         <option value="doctorate">Doctorate(PHD)</option>
+         <option value="high school/secondary school">High school/Secondary school</option>
+         <option value="under graduate">Under Graduate</option></select><br>
+         <label for="country">Country:</label><select name="country" id="country" required>
+            <option value="nigeria">Nigeria</option>
+         <option value="ghana">Ghana</option>
+         <option value="Angola">Angola</option>
+         <option value="cameroon">Cameroon</option>
+        </select>
+         <label for="state/city of residence">State/City of Residence: <input type="text" id="state/city of residence" name="state/city of residence" placeholder="Enter your state of residence" required/></label><br>
+         <label for="employment">Employment Status:</label><select name="employment" id="employment" required>
+            <option value="employed">Employed</option>
+         <option value="unemployed">Unemployed</option>
+         <option value="self-employed">ASelf-employed</option>
+        </select>
+        <label for="phone">Phone Number: <input type="number" id="phone" name="phone" placeholder="08123456789" required/></label><br>
+    <label for="school">Choose Schools: </label><select name="school" id="school" required>
+       <option value="school of creative economy">School of Creative Economy</option>
+    <option value="school of business">School of Business</option></select>
+<label for="course">Choose Course of Study: </label><select name="course" id="course" required>
+    <option value="select course">select course</option>
+   </select><br>
+   <label for="how">How did you hear about us?:</label><select name="hownt" id="how" required>
+    <option value="twitter">Twitter</option>
+ <option value="facebook">Facebook</option>
+ <option value="whatsaap">Whatsaap</option>
+</select>
+<label for="scholarship">Scholarship/Discount Code (optional) <input type="text" id="scholarship" name="scholarship" placeholder="Scholarship or Student id or Discount code" required/></label>
+    </form>
+</body>
+<footer>
+    <p>By clicking continue, I agree to  <a href="#">Terms of Use</a> and acknowledge that I
+        have read the  <a href="#">Privacy Policy.</a></p>
+
+<input type="button" value="Proceed"/>
+</footer>
+</html>
